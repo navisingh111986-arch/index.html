@@ -1,0 +1,41 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Brands & Features</title>
+  <style>
+    body {
+      background: url('https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Poppins', sans-serif;
+      color: #FFFFFF;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      text-shadow: 2px 2px #000000;
+      color: #FFD700;
+      margin-top: 30px;
+    }
+
+    table {
+      width: 90%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      border: 2px solid #FFFFFF;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    th {
+      background-color: #B22222;
+      color: #FFFFFF;
+      padding: 12px;
+    }
+
+    td {
+      border: 1px solid #FFFFFF;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>

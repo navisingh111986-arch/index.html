@@ -1,0 +1,71 @@
+/* ===== style.css ===== */
+/* External CSS ensures a unified design for all pages, 
+   demonstrating understanding of modular web structure (DS10, DS13). */
+
+body {
+  /* Sets universal look for all pages */
+  font-family: 'Poppins', sans-serif;  /* readable modern font */
+  background-color: #000000;            /* pure black for space theme */
+  background-image: url('https://images.pexels.com/photos/2156/sky-space-dark-galaxy.jpg');
+  background-size: cover;               /* covers full viewport */
+  background-attachment: fixed;         /* makes background static */
+  color: #FFFFFF;                       /* white text for contrast */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar - ensures structure and usability */
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  border-bottom: 2px solid #FFD700; /* golden border enhances premium cosmic feel */
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Hover effect improves interactivity */
+nav a:hover {
+  color: #FFD700;
+  text-decoration: underline;
+}
+
+/* Header Styling - adds visibility and structure */
+header {
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ID Selector - used for specific highlighted content */
+#highlight {
+  color: #FFD700;
+  font-style: italic;
+  text-shadow: 2px 2px #000000;  /* subtle glow for cosmic effect */
+}
+
+/* Class Selector - reusable design block for uniformity */
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid #FFD700;
+  border-radius: 10px;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  box-shadow: 0 0 10px #FFD700;  /* adds glowing highlight */
+}
+
+/* Footer - creates closure and visual balance */
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+  color: #FFD700;
+  font-weight: bold;
+}
